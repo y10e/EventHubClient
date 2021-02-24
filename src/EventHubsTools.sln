@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubsSender", "EventHubsSender\EventHubsSender.csproj", "{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubsReceiver", "EventHubsReceiver\EventHubsReceiver.csproj", "{043AB0FC-29FB-4600-8919-79F1926A1A62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Relaese|Any CPU = Relaese|Any CPU
+		Relaese|x64 = Relaese|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Debug|x64.ActiveCfg = Debug|x64
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Debug|x64.Build.0 = Debug|x64
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Relaese|Any CPU.ActiveCfg = Relaese|Any CPU
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Relaese|Any CPU.Build.0 = Relaese|Any CPU
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Relaese|x64.ActiveCfg = Relaese|x64
+		{53034B1D-820F-4FE1-99E1-3C1E4CBB23A0}.Relaese|x64.Build.0 = Relaese|x64
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Debug|x64.ActiveCfg = Debug|x64
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Debug|x64.Build.0 = Debug|x64
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Relaese|Any CPU.ActiveCfg = Relaese|Any CPU
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Relaese|Any CPU.Build.0 = Relaese|Any CPU
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Relaese|x64.ActiveCfg = Relaese|x64
+		{043AB0FC-29FB-4600-8919-79F1926A1A62}.Relaese|x64.Build.0 = Relaese|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0882D6D9-37B8-4592-A0A9-67F8056AE7B0}
+	EndGlobalSection
+EndGlobal

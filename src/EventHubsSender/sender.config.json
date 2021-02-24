@@ -1,0 +1,6 @@
+{
+  "count": 5, 
+  "msgprefix": "Prefix", 
+  "eventHubName": "xxxx",
+  "connectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx"
+}

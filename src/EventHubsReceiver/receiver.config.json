@@ -1,0 +1,7 @@
+{
+  "eventHubName": "<YourEventHubsName>",
+  "eventHubConnectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx",
+  "consumergroup": "ehreceive",
+  "blobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=xxx;AccountKey=xxx;EndpointSuffix=core.windows.net",
+  "blobContainerName": "ehreceive"
+}
