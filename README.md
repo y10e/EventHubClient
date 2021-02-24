@@ -24,10 +24,10 @@ The sample of sender.config.json is the following. please mind that sender.confi
 
 ```json
 {
-  "count": 5, //the number of messages sent to EventHubs. 
-  "msgprefix": "<MessagePrefix>" // message prefix. If Prefix is "hoge", the mssage is "hoge yyyy/mm/dd hh:mm:ss
-  "eventHubName": "<YourEventHubsName>", //EventHubs name *required
-  "connectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx" //connection string of EventHubs *required
+  "count": 5,
+  "msgprefix": "<MessagePrefix>"
+  "eventHubName": "<YourEventHubsName>",
+  "connectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx"
 }
 ```
 
@@ -70,11 +70,11 @@ You must set up the config file(./receiver.config.json). The sample of receiver.
 
 ```json
 {
-  "eventHubName": "<YourEventHubsName>", //EventHubs name *required
-  "eventHubConnectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx", //connection string of EventHubs *required
+  "eventHubName": "<YourEventHubsName>",
+  "eventHubConnectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx",
   "consumergroup": "", //Eventhubs Consumer Group. Default value is $default.
-  "blobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=xxx;AccountKey=xxx;EndpointSuffix=core.windows.net", //storage account is used to store the checkpoint. *required
-  "blobContainerName": "" //Storage Container Name. default value is consumergroup name.  If not exists, create new container.
+  "blobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=xxx;AccountKey=xxx;EndpointSuffix=core.windows.net",
+  "blobContainerName": ""
 }
 ```
 
