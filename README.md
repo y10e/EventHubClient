@@ -25,8 +25,8 @@ The sample of sender.config.json is the following. please mind that sender.confi
 ```json
 {
   "count": 5,
-  "msgprefix": "<MessagePrefix>"
-  "eventHubName": "<YourEventHubsName>",
+  "msgprefix":"<MessagePrefix>",
+  "eventHubName":"<YourEventHubsName>",
   "connectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx"
 }
 ```
@@ -72,7 +72,7 @@ You must set up the config file(./receiver.config.json). The sample of receiver.
 {
   "eventHubName": "<YourEventHubsName>",
   "eventHubConnectionString": "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxxx;EntityPath=xxx",
-  "consumergroup": "", //Eventhubs Consumer Group. Default value is $default.
+  "consumergroup": "",
   "blobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=xxx;AccountKey=xxx;EndpointSuffix=core.windows.net",
   "blobContainerName": ""
 }
