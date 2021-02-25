@@ -47,7 +47,7 @@ example
 ehsend -c 3
 
 # all parameters are specified on cmdline args
-ehsend -c 5 -p hoge -n functest -s "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxx;EntityPath=xxx"
+ehsend -c 5 -p hoge -n evhub -s "Endpoint=sb://xxxx.servicebus.windows.net/;SharedAccessKeyName=xxxx;SharedAccessKey=xxxx;EntityPath=xxx"
 ```
 
 # EventHubs Receiver
